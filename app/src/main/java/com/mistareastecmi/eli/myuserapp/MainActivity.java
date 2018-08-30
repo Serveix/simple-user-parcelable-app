@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void goStudent(View v){
         // Se crea la instancia del usuario parcelable
-        User user = new User(mNames.getText().toString(), mLastnames.getText().toString()
+        User user = new User(mNames.getText().toString(), mLastnames.getText().toString(),
                                 Integer.parseInt(mAge.getText().toString()));
 
         // Se crea el intent para abrir la segunda activity
